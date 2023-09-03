@@ -1,9 +1,11 @@
+// VARIABLES FOR HTML ELEMENTS
 let noteTitle;
 let noteText;
 let saveNoteBtn;
 let newNoteBtn;
 let noteList;
 
+// INITALIZE VARIABLES IF ON NOTES PAGE
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
   noteText = document.querySelector('.note-textarea');
@@ -25,6 +27,7 @@ const hide = (elem) => {
 // activeNote is used to keep track of the note in the textarea
 let activeNote = {};
 
+// FETCH NOTES
 const getNotes = () =>
   fetch('/api/notes', {
     method: 'GET',
@@ -33,6 +36,7 @@ const getNotes = () =>
     },
   });
 
+// SAVE NOTES
 const saveNote = (note) =>
   fetch('/api/notes', {
     method: 'POST',
@@ -42,6 +46,7 @@ const saveNote = (note) =>
     body: JSON.stringify(note),
   });
 
+// DELETE NOTES  
 const deleteNote = (id) =>
   fetch(`/api/notes/${id}`, {
     method: 'DELETE',
@@ -50,6 +55,7 @@ const deleteNote = (id) =>
     },
   });
 
+  // SHOW ACTIVE NOTES
 const renderActiveNote = () => {
   hide(saveNoteBtn);
 
@@ -66,6 +72,7 @@ const renderActiveNote = () => {
   }
 };
 
+// SAVE CURRENT NOTE
 const handleNoteSave = () => {
   const newNote = {
     title: noteTitle.value,
@@ -108,6 +115,7 @@ const handleNewNoteView = (e) => {
   renderActiveNote();
 };
 
+// SHOW OR HIDE SAVE
 const handleRenderSaveBtn = () => {
   if (!noteTitle.value.trim() || !noteText.value.trim()) {
     hide(saveNoteBtn);
@@ -173,6 +181,7 @@ const renderNoteList = async (notes) => {
 // Gets notes from the db and renders them to the sidebar
 const getAndRenderNotes = () => getNotes().then(renderNoteList);
 
+// EVENT LISTENERS IF ON NOTES PAGE
 if (window.location.pathname === '/notes') {
   saveNoteBtn.addEventListener('click', handleNoteSave);
   newNoteBtn.addEventListener('click', handleNewNoteView);

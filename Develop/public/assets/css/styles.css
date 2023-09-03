@@ -1,3 +1,4 @@
+/* HTML & body height */
 html,
 body {
   height: 100%;
@@ -5,10 +6,12 @@ body {
   padding: 0;
 }
 
+/* SAVE NOTE BUTTON / DISPLAY NONE */
 .save-note {
   display: none;
 }
 
+/* ICONS */
 .icons i {
   margin-left: 15px;
   margin-right: 15px;
@@ -16,6 +19,7 @@ body {
   cursor: pointer;
 }
 
+/* TEXTAREA & TITLES */
 .note-textarea,
 .note-title {
   color: #000000;
@@ -24,23 +28,27 @@ body {
   border: none;
 }
 
+/* TEXT AREA */
 .note-textarea {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
 }
 
+/* TITLE */
 .note-title {
   height: 50px;
   margin-top: 13px;
   font-size: 3rem;
 }
 
+/* READ-ONLY TEXT */
 .note-title:read-only,
 .note-textarea:read-only {
   color: #757575;
 }
 
+/* CARD */
 .list-container .card {
   height: calc(100vh - 70px);
   border-bottom: none;
@@ -48,10 +56,12 @@ body {
   border-bottom-left-radius: 0;
 }
 
+/* NO PADDING */
 .list-container {
   padding-left: 0;
 }
 
+/* NO TOP BORDER */
 .list-container .list-group,
 .list-container .list-group-item:first-child,
 .list-container .card {
@@ -60,16 +70,19 @@ body {
   border-top-left-radius: 0;
 }
 
+/* TITLE WIDTH */
 .list-item-title {
   display: inline-block;
   width: 75%;
 }
 
+/* LIST ICONS */
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
 }
 
+/* LIST ITEMS */
 .list-container .list-group-item {
   border-left: none;
   border-right: none;
