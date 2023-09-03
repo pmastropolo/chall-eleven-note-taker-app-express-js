@@ -6,14 +6,7 @@ Note taking application, featuring Express.js, that allows you to write/save not
 
 ## Description
 
-A note taking application, featuring Node & Express.js, that allows user to write & save notes. I was given starter code for this project. It included a git ignore file, and all of the other starter code is in the Develop folder. ( Essentially, all of the front end of this application, has been provided.) This project is deployed on Heroku, and uses Insomnia for API testing. When user is directed to homepage, should be able to press the get started button and be directed to the notes application.
-Save Icon: should be on top of page.
-Existing Notes: should be on left-hand side
-Empty Notes: right-side column.
-When you click on existing note in left-hand side,
-the note should appear in right-hand side column.
-Should be a Write Icon at top of page.
-Write new notes in right-side column.
+A note taking application, featuring Node & Express.js, that allows user to write & save notes from a JSON file.  I was given starter code for this project. It included a git ignore file, and all of the other starter code is in the Develop folder. ( Essentially, all of the front end of this application, has been provided.) This project is deployed on Heroku, and uses Insomnia for API testing. When user is directed to homepage, should be able to press the get started button and be directed to the notes application. Save Icon: should be on top of page, ( it does not show until you have written note title and note text ) , Existing Notes: should be on left-hand side, Empty Notes: right-side column ( where user writes notes ), When you click on existing note in left-hand side, the note should appear in right-hand side column. Should be a Write Icon at top of page.
 
 ## Table of Contents
 
@@ -47,7 +40,7 @@ Write new notes in right-side column.
 
 :arrow_forward: [Github Link : Click Me To Go To Link](https://github.com/pmastropolo/module-eleven-challenge-note-taker-express-js)
 
-:arrow_forward: [Deployed Heroku Page : Click Me To Go To Link]
+:arrow_forward: [Deployed Heroku Page : Click Me To Go To Link](https://note-taki-9bed0c7969cb.herokuapp.com/)
 
 ## Links
 
@@ -57,7 +50,7 @@ Write new notes in right-side column.
 
 :arrow_forward: Github link:https://github.com/pmastropolo/module-eleven-challenge-note-taker-express-js
 
-:arrow_forward: Deployed Heroku Page Link:
+:arrow_forward: Deployed Heroku Page Link:https://note-taki-9bed0c7969cb.herokuapp.com/
 
 ## Express
 
