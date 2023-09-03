@@ -38,7 +38,7 @@ A note taking application, featuring Node & Express.js, that allows user to writ
 
 :arrow_forward: [Starter Code : Click Me To Go To Link](https://github.com/coding-boot-camp/miniature-eureka)
 
-:arrow_forward: [Github Link : Click Me To Go To Link](https://github.com/pmastropolo/module-eleven-challenge-note-taker-express-js)
+:arrow_forward: [Github Link : Click Me To Go To Link](https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js/tree/main)
 
 :arrow_forward: [Deployed Heroku Page : Click Me To Go To Link](https://note-taki-9bed0c7969cb.herokuapp.com/)
 
@@ -48,9 +48,9 @@ A note taking application, featuring Node & Express.js, that allows user to writ
 
 :arrow_forward: Starter Code: https://github.com/coding-boot-camp/miniature-eureka
 
-:arrow_forward: Github link:https://github.com/pmastropolo/module-eleven-challenge-note-taker-express-js
+:arrow_forward: Github link: https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js/tree/main
 
-:arrow_forward: Deployed Heroku Page Link:https://note-taki-9bed0c7969cb.herokuapp.com/
+:arrow_forward: Deployed Heroku Page Link: https://note-taki-9bed0c7969cb.herokuapp.com/
 
 ## Express
 
