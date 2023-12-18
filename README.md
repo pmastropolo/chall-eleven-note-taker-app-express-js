@@ -40,7 +40,9 @@ A note taking application, featuring Node & Express.js, that allows user to writ
 
 :arrow_forward: [Github Link : Click Me To Go To Link](https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js/tree/main)
 
-:arrow_forward: [Deployed Heroku Page : Click Me To Go To Link](https://note-taki-9bed0c7969cb.herokuapp.com/)
+:arrow_forward: [Deployed Heroku Page : Click Me To Go To Link](https://chall-eleven-note-taker-app-7f995fb9ffb7.herokuapp.com/notes)
+
+![Deployed on Heroku](images/challelevennotetakingapp.jpg)
 
 ## Links
 
@@ -50,7 +52,7 @@ A note taking application, featuring Node & Express.js, that allows user to writ
 
 :arrow_forward: Github link: https://github.com/pmastropolo/chall-eleven-note-taker-app-express-js/tree/main
 
-:arrow_forward: Deployed Heroku Page Link: https://note-taki-9bed0c7969cb.herokuapp.com/
+:arrow_forward: Deployed Heroku Page Link: https://chall-eleven-note-taker-app-7f995fb9ffb7.herokuapp.com/notes
 
 ## Express
 
